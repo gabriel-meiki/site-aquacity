@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/logo-aquacity-removebg-preview.png" type="png">
 
     <link rel="stylesheet" href="css/style.css">
     <title>Aquacity - Oficial</title>
@@ -13,26 +12,33 @@
     <header>
         <nav class="nav-bar">
             <div class="nav-logo">
-                <img src="img/logo-aquacity-removebg-preview.png" alt="logo Aquacity">
+                <img src="img/logo.png" alt="logo Aquacity">
             </div>
-            <ul class="nav-itens">
-                <li>
-                    <a href="#" class="nav-link">Início</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link">Proposta</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link">Desenvolvimento</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link">Integrantes</a>
-                </li>
-            </ul>
+
+            <div>
+                <ul class="nav-itens">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#proposta" class="nav-link">Proposta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#desenvolvimento" class="nav-link">Desenvolvimento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#integrantes" class="nav-link">Integrantes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-        <div class="titulo">
+
+        <div class="titulo" id="inicio">
             <div class="titulo-top">
-                <img src="img/logo-aquacity-removebg-preview.png" alt="">
+                <img src="img/logo.png" alt="logo Aquacity">
                 <h1>Aquacity</h1>
             </div>
             <p>Onde o conhecimento deságua de Pernambuco afora</p>
@@ -40,10 +46,119 @@
     </header>
 
     <main>
-        <section class="proposta">
-            <h1>Proposta</h1>
-            <p>Nosso projeto visa desenvolver uma forma de conscientizar as pessoas a respeito dos problemas de água e saneamento básico nos centros urbanos com base na ODS 4 e ODS 6</p>
+        <section class="proposta" id="proposta">
+                
+                <article class="proposta-texto">
+                    <h1>Nossa proposta</h1>
+                    <p>Acreditamos que o conhecimento abre portas para um futuro melhor, pensando nisso, nosso projeto visa desenvolver uma forma de conscientizar as pessoas a respeito dos problemas de água e saneamento básiconos centros urbanos com base em dois temas da ONU.</p>
+                </article>
+
+                <article class="ods">
+                    <a href="https://brasil.un.org/pt-br/sdgs/6" target="_blank">
+                        <img src="img/ODS - agua.svg" alt="">
+                    </a>
+
+                    <a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank">
+                        <img src="img/ODS - educação.svg" alt="">
+                    </a>
+                </article>
+                
+        </section>
+
+        <section class="celular">
+            
+
+            <div class="celular-imagem">
+                <img src="img/Tela Inicial.png" alt="celular Aquacity">
+            </div>
+
+            <div class="celular-lista">
+                <ul>
+                    <li>JOGO 2D</li>
+                    <li>DIVIDIDO EM FASES</li>
+                    <li>BASEADO NA REALIDADE NO DIA A DIA</li>
+                    <li>SE PASSA NA CIDADE DO RECIFE</li>
+                    <li>DESENVOLVIMENTO DE HISTÓRIA</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="desenvolvimento" id="desenvolvimento">
+            <h1>Desenvolvimento</h1>
+            <div class="desenvolvimento-bolas">
+                <div class="bola verificado"></div>
+                <div class="bola verificado"></div>
+                <div class="bola"></div>
+                <div class="bola"></div>
+                <div class="bola"></div>
+            </div>
+            <hr>
+            <div class="desenvolvimento-titulos">
+                <h2 id="idealizacao">IDEALIZAÇÃO</h2>
+                <h2 id="prototipacao">PROTOTIPAÇÃO</h2>
+                <h2 id="programacao">PROGRAMAÇÃO</h2>
+                <h2 id="pre">PRÉ-LANÇAMENTO</h2>
+                <h2>LANÇAMENTO OFICIAL</h2>
+            </div>
+        </section>
+
+        <section class="integrantes" id="integrantes">
+            <h1>Equipe</h1>
+            <div class="fotos">
+                <div>
+                    <div class="foto"></div>
+                    <p>Nome Sobrenome</p>
+                </div>
+
+                <div>
+                    <div class="foto"></div>
+                    <p>Nome Sobrenome</p>
+                </div>
+
+                <div>
+                    <div class="foto"></div>
+                    <p>Nome Sobrenome</p>
+                </div>
+
+                <div>
+                    <div class="foto"></div>
+                    <p>Nome Sobrenome</p>
+                </div>
+            </div>
+            <div class="fotos">
+                <div>
+                    <div class="foto"></div>
+                    <p>Nome Sobrenome</p>
+                </div>
+
+                <div>
+                    <div class="foto"></div>
+                    <p>Nome Sobrenome</p>
+                </div>
+
+                <div>
+                    <div class="foto"></div>
+                    <p>Nome Sobrenome</p>
+                </div>
+
+                <div>
+                    <div class="foto"></div>
+                    <p>Nome Sobrenome</p>
+                </div>
+            </div>
         </section>
     </main>
+
+    <footer>
+        <div class="logo" id="contato">
+            <img src="img/logo.png" alt="">
+            Aquacity
+        </div>
+        <div class="redes">
+            <img src="img/insta.png" alt=""  class="rede">
+            <img src="img/face.png" alt="" class="rede">
+            <img src="img/play-store (1).png" alt="" class="rede">
+        </div>
+    </footer>
 </body>
 </html>
