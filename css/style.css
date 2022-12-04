@@ -224,11 +224,16 @@ hr{
     font-size: 3rem;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .integrantes p{
     padding-top: 15px;
     font-size: 1.5rem;
     font-weight: 500;
-    margin-left: -25px;
 }
 
 .fotos{
