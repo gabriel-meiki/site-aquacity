@@ -8,7 +8,7 @@
 
 /* Header */
 header{
-    background-image: linear-gradient(to bottom, #40D2FF, #12627A);
+    background-image: linear-gradient(to bottom, #55CCFF, #0E83FA, #050A30);
     height: 93vh;
     position: relative;
 }
@@ -39,7 +39,7 @@ header{
 }
 
 .nav-link{
-    color: rgb(5, 5, 61);
+    color: #050A30;
     text-decoration: none;
     font-size: 1.5rem;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.397);
