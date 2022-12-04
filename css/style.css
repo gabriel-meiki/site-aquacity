@@ -6,6 +6,10 @@
     font-size: 1rem;
 }
 
+html, body{
+    overflow-x: hidden;
+}
+
 /* Header */
 header{
     background-image: linear-gradient(to bottom, #55CCFF, #0E83FA, #050A30);
