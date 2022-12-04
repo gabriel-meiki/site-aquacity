@@ -141,6 +141,10 @@ main{
     align-items: center;
     margin: 0% -8%;
     height: 85vh;
+    background-attachment: fixed;
+    background-image: url(../img/ceu.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
 .celular-imagem img{
