@@ -228,6 +228,7 @@ hr{
     padding-top: 15px;
     font-size: 1.5rem;
     font-weight: 500;
+    margin-left: -25px;
 }
 
 .fotos{
@@ -237,13 +238,72 @@ hr{
 }
 
 .foto{
-    height: 200px;
-    width: 200px;
+    height: 125px;
+    width: 125px;
     border-radius: 50%;
     background-color: gray;
 }
 
+/* botando as fotos de cada um */
 
+
+#japa{
+    background-image: url('../integrantes/japa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#mariana{
+    background-image: url('../integrantes/mariana.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#joyce{
+    background-image: url('../integrantes/joyce.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#jp{
+    background-image: url('../integrantes/jp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#roberto{
+    background-image: url('../integrantes/roberto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#gabriela{
+    background-image: url('../integrantes/gabriela.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+#katt{
+    background-image: url('../integrantes/katt.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#guilherme{
+    background-image: url('../integrantes/guilherme.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+/* Fim das pessoas */
 
 footer{
     background-color: #474747;
