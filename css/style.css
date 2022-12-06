@@ -316,24 +316,16 @@ hr{
 /* Fim das pessoas */
 
 footer{
-    background-color: #474747;
+    background-color: #040724;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-}
-
-footer .logo{
-    display: flex;
-    align-items: center;
-    font-size: 3rem;
     color: white;
-}
-footer img{
-    width: 200px;
+    padding: 15px;
+    font-size: 2rem;
 }
 
-.rede{
-    width: 100px;
-    height: 100px;
-    margin-left: 30px;
+footer img{
+    width: 3rem;
+    padding-right: 10px;
 }
